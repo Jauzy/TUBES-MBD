@@ -56,7 +56,39 @@ nav {
     margin-top: 12px;
 }
 
+.headmateri {
+    background-color: #008080;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    /*padding-left: 200px;
+    padding-right: 50px;*/
+    color: #FFF;
+    
+}
 
+.BGMateri {
+    background-color: #F8F9FA;
+    /*padding-left: 150px;
+    padding-right: 150px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.BadanMateri {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    border: 1px solid #DFDFDF;
+    color: #343A40;
+    background-color: #FFF;
+}
+
+.BadanMateri li {
+    padding-bottom: 10px;
+    font-size: 17px;
+}
 
 
 
