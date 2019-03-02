@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daftar Akun</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- bootstrap css -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> <!-- popper js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- bootstrap 4 js -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"> <!-- fontawesome untuk icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- javascriptnya fontawesome -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- file css yang digunakan -->
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #272743">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../Logo.png" width="100px" height="auto" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" style=""><strong>Home</strong><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cari Kerja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Latihan Soal</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Materi Pembelajaran
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <ul class="" style="list-style: none;padding-left:0px    ">
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" tabindex="-1" href="#">Tingkat SMA</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a tabindex="-1" href="#">Fisika</a></li>
+                                        <li class="dropdown-item"><a href="#">Kimia</a></li>
+                                        <li class="dropdown-item"><a href="#">Biologi</a></li>
+                                        <li class="dropdown-item"><a href="#">Matematika IPA</a></li>
+                                        <li class="dropdown-item"><a href="#">Matematika Umum</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" tabindex="-1" href="#">Teknik</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a tabindex="-1" href="#">Teknik Infomatika</a></li>
+                                        <li class="dropdown-item"><a href="#">Teknik Kimia</a></li>
+                                        <li class="dropdown-item"><a href="#">Teknik Sipil</a></li>
+                                        <li class="dropdown-item"><a href="#">Teknik Komputer</a></li>
+                                        <li class="dropdown-item"><a href="#">Teknik Elektro</a></li>
+                                        <li class="dropdown-item"><a href="#">Teknik Mesin</a></li>
+                                        <li class="dropdown-item"><a href="#">Teknik Lingkungan</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" tabindex="-1" href="#">Murni</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a tabindex="-1" href="#">Fisika</a></li>
+                                        <li class="dropdown-item"><a href="#">Kimia</a></li>
+                                        <li class="dropdown-item"><a href="#">Biologi</a></li>
+                                        <li class="dropdown-item"><a href="#">Matematika</a></li>
+                                        <li class="dropdown-item"><a href="#">Astronomi</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" tabindex="-1" href="#">Pendidikan</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a tabindex="-1" href="#">Fisika</a></li>
+                                        <li class="dropdown-item"><a href="#">Kimia</a></li>
+                                        <li class="dropdown-item"><a href="#">Biologi</a></li>
+                                        <li class="dropdown-item"><a href="#">Matematika</a></li>
+                                        <li class="dropdown-item"><a href="#">Agama</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#daftar">Daftar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#about">Tentang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa fa-user-circle fa-1x" aria-hidden="true" id="login-icon"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact" id="login">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="modal-dialog text-center">
+        <!-- membuat kotak dialog, menggunakan text-center karna akan dibuat rata tengah -->
+        <div class="main-section">
+            <div class="modal-content">
+
+                <div class="col-12 user-img">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/ee7e721d-8e5d-48a2-a23e-ca739300013b/dcvsuvw-2fd18dc1-d151-45b1-acb5-acc9ddd8cf9b.jpg/v1/fill/w_894,h_894,q_70,strp/icon_diri_by_jauzy_dcvsuvw-pre.jpg">
+                </div>
+
+                <form class="form">
+
+                    <div id="usrnm">
+                        <p class="main">Name :</p>
+                        <div class="row">
+                            <div class="col">
+                                <!-- first name -->
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="First Name">
+                                    <p class="warn">*Please input your real name</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- lastname -->
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="main">E-mail :</p>
+                    <div id="mail" class="form-group">
+                        <input type="text" class="form-control" placeholder="Enter E-mail">
+                        <p class="warn">*E-mail needs to be verified to continue</p>
+                    </div>
+
+                    <div id="lock">
+                        <p class="main">Password :</p>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Enter Password">
+                            <p class="warn">*Password must be unique</p>
+                        </div>
+                        <p class="main">Re-enter Password :</p>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Re-enter Password">
+                            <p class="warn">*Re-enter Password</p>
+                        </div>
+                    </div>
+
+                    <p class="main">Phone Number :</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <!-- code -->
+                            <div id="plus" class="form-group">
+                                <input maxlength="4" type="text" class="form-control" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <!-- number -->
+                            <div id="phone" class="form-group">
+                                <input type="text" class="form-control" placeholder="Phone">
+                                <p class="warn">*Ex : +62 8567272845</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="main">Location :</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="btn-group">
+                                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Country
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- dropdown menu links -->
+                                    <li>Australia</li>
+                                    <li>Argentina</li>
+                                    <li>America</li>
+                                    <li>Belgia</li>
+                                    <li>India</li>
+                                    <li>Indonesia</li>
+                                    <li>Malaysia</li>
+                                    <li>Singapure</li>
+                                    <li>Vietnam</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <!-- city -->
+                            <div id="city" class="form-group">
+                                <input type="text" class="form-control" placeholder="City">
+                                <p class="warn">*Enter your local city</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="main">Gender :</p>
+                    <p class="sub">Select Your Gender Below</p>
+                    <div id="gender">
+                        <label class="radio-inline"><input type="radio" name="optradio" checked>Men</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">Women</label>
+                        <label class="radio-inline"><input type="radio" name="optradio">Others</label>
+                    </div>
+
+                    <!-- login btn -->
+                    <button type="submit" class="btn"><i class="fas fa-sign-in-alt"></i>SignUp</button>
+                </form>
+
+                <!-- lupa password -->
+                <div class="col-12 forgot">
+                    <a href="#">Forgot Password</a>
+                </div>
+
+            </div> <!-- akhir dari modal-content class ( isi form )-->
+        </div>
+    </div>
+
+   <!-- <div class="col-sm-12 text-center foot">
+        Dibuat oleh <strong>Muhammad Abdurrahman Al-Jauzy 1301184074</strong> dengan bantuan tutorial <strong>Youtube</strong><br>
+        <div id="lang">
+            Language :
+            <select>
+                <option>English</option>
+                <option>Indonesia</option>
+                <option>Jowo</option>
+                <option>Germany</option>
+            </select>
+        </div>
+    </div>-->
+
+    <!--<div class="col-sm-12 text-center header">
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://www.deviantart.com/jauzy/gallery/">DeviantArt</li>
+                <li><a href="https://www.instagram.com/al_zaujy/">Instagram</a></li>
+            </ul>
+        </nav>
+    </div>-->
+    
+</body>
+
+</html>
