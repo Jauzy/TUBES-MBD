@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Daftar Akun</title>
+    <title>Login Akun</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- bootstrap css -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> <!-- popper js -->
@@ -122,25 +122,6 @@
 
                 <form class="form">
 
-                    <div id="usrnm">
-                        <p class="main">Name :</p>
-                        <div class="row">
-                            <div class="col">
-                                <!-- first name -->
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name">
-                                    <p class="warn">*Please input your real name</p>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <!-- lastname -->
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <p class="main">E-mail :</p>
                     <div id="mail" class="form-group">
                         <input type="text" class="form-control" placeholder="Enter E-mail">
@@ -153,67 +134,6 @@
                             <input type="password" class="form-control" placeholder="Enter Password">
                             <p class="warn">*Password must be unique</p>
                         </div>
-                        <p class="main">Re-enter Password :</p>
-                        <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Re-enter Password">
-                            <p class="warn">*Re-enter Password</p>
-                        </div>
-                    </div>
-
-                    <p class="main">Phone Number :</p>
-                    <div class="row">
-                        <div class="col-3">
-                            <!-- code -->
-                            <div id="plus" class="form-group">
-                                <input maxlength="4" type="text" class="form-control" placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <!-- number -->
-                            <div id="phone" class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone">
-                                <p class="warn">*Ex : +62 8567272845</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p class="main">Location :</p>
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="btn-group">
-                                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                                    Country
-                                    <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <!-- dropdown menu links -->
-                                    <li>Australia</li>
-                                    <li>Argentina</li>
-                                    <li>America</li>
-                                    <li>Belgia</li>
-                                    <li>India</li>
-                                    <li>Indonesia</li>
-                                    <li>Malaysia</li>
-                                    <li>Singapure</li>
-                                    <li>Vietnam</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <!-- city -->
-                            <div id="city" class="form-group">
-                                <input type="text" class="form-control" placeholder="City">
-                                <p class="warn">*Enter your local city</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p class="main">Gender :</p>
-                    <p class="sub">Select Your Gender Below</p>
-                    <div id="gender">
-                        <label class="radio-inline"><input type="radio" name="optradio" checked>Men</label>
-                        <label class="radio-inline"><input type="radio" name="optradio">Women</label>
-                        <label class="radio-inline"><input type="radio" name="optradio">Others</label>
                     </div>
 
                     <!-- login btn -->

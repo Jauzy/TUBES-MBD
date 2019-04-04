@@ -10,11 +10,11 @@ body{
 
 nav .container {
     margin-left: 50px;
-    
+
 }
 
 nav {
-    box-shadow: 1px 9px 10px #181E36; 
+    box-shadow: 1px 9px 10px #181E36;
 }
 
 .about_sec {
@@ -32,7 +32,7 @@ nav {
 }
 
 .daftar_sec {
-    background:linear-gradient(to bottom,#EB3B17,#272743);
+    background:linear-gradient(to bottom,#533180,#272743);
     padding-top: 50px;
     padding-bottom: 50px;
     color: #FFF;
@@ -51,7 +51,13 @@ nav {
 }
 
 #login-icon{
-    margin-left: 50px;
+    margin-left: 20px;
+    color: #C7C7CE;
+    margin-top: 12px;
+}
+
+#store-icon{
+    margin-left: 20px;
     color: #C7C7CE;
     margin-top: 12px;
 }
@@ -63,7 +69,7 @@ nav {
     /*padding-left: 200px;
     padding-right: 50px;*/
     color: #FFF;
-    
+
 }
 
 .BGMateri {
@@ -90,7 +96,9 @@ nav {
     font-size: 17px;
 }
 
-
+.logotutorlain {
+  margin-right: 10px;
+}
 
 
 /*Dropdown css*/

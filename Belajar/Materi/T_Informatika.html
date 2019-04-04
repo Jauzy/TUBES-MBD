@@ -8,9 +8,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <style>
-        a {color: #008080;}    
+        a {color: #008080;}
     </style>
 </head>
 
@@ -18,7 +19,7 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #272743">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/Logo.png" width="100px" height="auto" alt="">
+                <img src="../logo calo1.png" width="100px" height="auto" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,7 +54,7 @@
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item" tabindex="-1" href="#">Teknik</a>
                                     <ul class="dropdown-menu">
-                                        <li class="dropdown-item"><a tabindex="-1" href="#">Teknik Infomatika</a></li>
+                                        <li class="dropdown-item"><a tabindex="-1" href="../Materi/T_Informatika.html">Teknik Infomatika</a></li>
                                         <li class="dropdown-item"><a href="#">Teknik Kimia</a></li>
                                         <li class="dropdown-item"><a href="#">Teknik Sipil</a></li>
                                         <li class="dropdown-item"><a href="#">Teknik Komputer</a></li>
@@ -98,10 +99,15 @@
                             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
+                            <i class="fa fa-cart-plus fa-1x" aria-hidden="true" id="store-icon"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact" id="store">Store</a>
+                        <li class="nav-item">
                             <i class="fa fa-user-circle fa-1x" aria-hidden="true" id="login-icon"></i>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact" id="login">Login</a>
+                            <a class="nav-link js-scroll-trigger" href="../index.html#daftar" id="login">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -112,7 +118,8 @@
     <div class="headmateri">
         <div class="container">
             <h1><strong>Materi Pembelajaran Teknik Informatika</strong></h1>
-        <p>Teknik Informatika mempelajari tentang pemrograman komputer.</p>
+        <p>Materi Teknik Informatika akan mempelajari tentang bagaimana sebuah program atau aplikasi dapat berjalan dengan pendekatan
+        yang mudah dipahami oleh user yang berasal dari kalangan akademik maupun pemula non-akademik.</p>
         </div>
     </div>
 
@@ -121,6 +128,7 @@
             <div class="row">
                 <div class=" container col-9">
                     <h1><strong>Pemula</strong></h1>
+                    <hr>
                     <br>
                     <ol>
                         <li><a href="#">Teknik Informatika #1: Pengenalan Variabel</a></li>
@@ -131,7 +139,31 @@
                         <li><a href="#">Teknik Informatika #6: Pengenalan Multithread</a></li>
                         <li><a href="#">Teknik Informatika #7: Pengenalan Graphical User Interface</a></li>
                         <li><a href="#">Teknik Informatika #8: Pengenalan Generic Programming</a></li>
-                        
+                    </ol>
+
+                    <h1><strong>Menengah</strong></h1>
+                    <hr>
+                    <br>
+                    <ol>
+                        <li><a href="#">Teknik Informatika #9: Pemrograman Database</a></li>
+                        <li><a href="#">Teknik Informatika #10: Pemrograman Web Dasar</a></li>
+                        <li><a href="#">Teknik Informatika #11: Pemrograman Web Menengah</a></li>
+                        <li><a href="#">Teknik Informatika #12: Pemrograman Web Lanjutan</a></li>
+                        <li><a href="#">Teknik Informatika #13: Pengenalan Framework Flask</a></li>
+                        <li><a href="#">Teknik Informatika #14: Pengenalan Framework ReactJs</a></li>
+                        <li><a href="#">Teknik Informatika #15: Pengenalan Framework Laravel</a></li>
+                        <li><a href="#">Teknik Informatika #16: Pengenalan Framework Django</a></li>
+                    </ol>
+
+                    <h1><strong>Lanjutan</strong></h1>
+                    <hr>
+                    <br>
+                    <ol>
+                        <li><a href="#">Teknik Informatika #17: Pengenalan Pemrograman Android</a></li>
+                        <li><a href="#">Teknik Informatika #18: Java dan Kotlin Sebagai Bahasa Pemrograman Android</a></li>
+                        <li><a href="#">Teknik Informatika #19: Integrasi Java dan Kotlin Pada XML ( XML PARSER )</a></li>
+                        <li><a href="#">Teknik Informatika #20: Pemrograman GUI Android</a></li>
+                        <li><a href="#">Teknik Informatika #21: Pengenalan Framework React Native</a></li>
                     </ol>
                 </div>
                 <div class="col">
@@ -139,37 +171,28 @@
                     <table class="table table-bordered">
                         <tbody>
                             <tr>
-                                <td>Mark</td>
+                                <td><a href="#"><i class="fa fa-plus-circle logotutorlain" aria-hidden="true"></i>Matematika IPS</a></td>
                             </tr>
                             <tr>
-                                <td>@fat</td>
+                                <td><a href="#"><i class="fa fa-thermometer-quarter logotutorlain" aria-hidden="true"></i>Kimia IPA</a></td>
                             </tr>
                             <tr>
-                                <td>@twitter</td>
+                                <td><a href="#"><i class="fa fa-university logotutorlain" aria-hidden="true"></i>Hukum Sosial</a></td>
                             </tr>
                             <tr>
-                                <td>@twitter</td>
+                                <td><a href="#"><i class="fa fa-university logotutorlain" aria-hidden="true"></i>Hukum Sosial</a></td>
                             </tr>
                             <tr>
-                                <td>@twitter</td>
+                                <td><a href="#"><i class="fa fa-university logotutorlain" aria-hidden="true"></i>Hukum Sosial</a></td>
                             </tr>
                             <tr>
-                                <td>@twitter</td>
+                                <td><a href="#"><i class="fa fa-university logotutorlain" aria-hidden="true"></i>Hukum Sosial</a></td>
                             </tr>
                             <tr>
-                                <td>@twitter</td>
+                                <td><a href="#"><i class="fa fa-university logotutorlain" aria-hidden="true"></i>Hukum Sosial</a></td>
                             </tr>
                             <tr>
-                                <td>@twitter</td>
-                            </tr>
-                            <tr>
-                                <td>@twitter</td>
-                            </tr>
-                            <tr>
-                                <td>@twitter</td>
-                            </tr>
-                            <tr>
-                                <td>@twitter</td>
+                                <td><a href="#"><i class="fa fa-university logotutorlain" aria-hidden="true"></i>Hukum Sosial</a></td>
                             </tr>
                         </tbody>
                     </table>
