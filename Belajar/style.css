@@ -1,17 +1,17 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #343A40;
 }
+
 .navbar-brand {
-    padding-bottom: 0px!important;
-    padding-top: 0px!important;
-    padding-right: 10px!important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 10px !important;
 }
 
 nav .container {
-    margin-left: 50px;
-
 }
+
 
 nav {
     box-shadow: 1px 9px 10px #181E36;
@@ -32,13 +32,13 @@ nav {
 }
 
 .daftar_sec {
-    background:linear-gradient(to bottom,#533180,#272743);
+    background: linear-gradient(to bottom, #533180, #272743);
     padding-top: 50px;
     padding-bottom: 50px;
     color: #FFF;
 }
 
-.daftar_sec button{
+.daftar_sec button {
     padding-left: 100px;
     padding-right: 100px;
     background-color: #1C223A;
@@ -50,13 +50,13 @@ nav {
     border-color: transparent;
 }
 
-#login-icon{
+#login-icon {
     margin-left: 20px;
     color: #C7C7CE;
     margin-top: 12px;
 }
 
-#store-icon{
+#store-icon {
     margin-left: 20px;
     color: #C7C7CE;
     margin-top: 12px;
@@ -97,7 +97,7 @@ nav {
 }
 
 .logotutorlain {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 
@@ -107,7 +107,7 @@ nav {
     position: relative;
 }
 
-.dropdown-submenu>.dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
     top: 0;
     left: 100%;
     margin-top: -6px;
@@ -117,11 +117,11 @@ nav {
     border-radius: 0 6px 6px 6px;
 }
 
-.dropdown-submenu:hover>.dropdown-menu {
+.dropdown-submenu:hover > .dropdown-menu {
     display: block;
 }
 
-.dropdown-submenu>a:after {
+.dropdown-submenu > a:after {
     display: block;
     content: " ";
     float: right;
@@ -135,7 +135,7 @@ nav {
     margin-right: -10px;
 }
 
-.dropdown-submenu:hover>a:after {
+.dropdown-submenu:hover > a:after {
     border-left-color: #fff;
 }
 
@@ -143,7 +143,7 @@ nav {
     float: none;
 }
 
-.dropdown-submenu.pull-left>.dropdown-menu {
+.dropdown-submenu.pull-left > .dropdown-menu {
     left: -100%;
     margin-left: 10px;
     -webkit-border-radius: 6px 0 6px 6px;
